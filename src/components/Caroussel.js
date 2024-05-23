@@ -26,12 +26,19 @@ export default function Caroussel({
   return (
     <div className=" overflow-hidden relative">
       <div
-        className=" flex transition-transform ease-out duration-500"
+        className="flex transition ease-out duration-700 delay-150"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-        {slides}
+        {slides.map((slide, index) => (
+          <div
+            key={index}
+            className="min-w-full flex justify-center items-center"
+          >
+            {slide}
+          </div>
+        ))}
       </div>
-      <div className=" absolute text-3xl inset-0 mx-2 flex items-center justify-between">
+      <div className=" absolute text-3xl inset-0 mx-2 hidden items-center justify-between">
         <button
           onClick={prevSlide}
           className=" bg-white/80 text-gray-800 shadow rounded-full p-2 hover:bg-white"
@@ -45,7 +52,7 @@ export default function Caroussel({
           <FaChevronRight />
         </button>
       </div>
-      <div className="absolute bottom-4 left-0 right-0">
+      <div className="absolute bottom-4 left-0 right-0 hidden">
         <div className=" flex items-center justify-center gap-2">
           {slides.map((_, i) => (
             <div
