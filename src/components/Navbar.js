@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isShow, setIsShow] = useState(false);
 
   return (
-    <nav className=" fixed px-4 py-1 bg-white font-Montserrat w-full flex flex-wrap items-center justify-between  shadow overflow-x-hidden">
+    <nav className=" z-50 fixed px-4 py-1 bg-white font-Montserrat w-full flex flex-wrap items-center justify-between  shadow overflow-x-hidden">
       <div>
         <Link to="#">
           <h1 className=" text-2xl font-bold">
