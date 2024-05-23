@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Menu from "./Menu";
 
 export default function Navbar() {
   const [isShow, setIsShow] = useState(false);
@@ -21,25 +22,7 @@ export default function Navbar() {
       >
         {isShow ? <AiOutlineClose /> : <CiMenuBurger />}
       </div>
-      <div className={`${isShow ? "block" : "hidden"} w-full p-4 font-bold`}>
-        <ul className="flex flex-col items-center gap-4">
-          <Link>
-            <li>Home</li>
-          </Link>
-          <Link>
-            <li>About</li>
-          </Link>
-          <Link>
-            <li>Services</li>
-          </Link>
-          <Link>
-            <li>Gallery</li>
-          </Link>
-          <Link>
-            <li>Contact</li>
-          </Link>
-        </ul>
-      </div>
+      <Menu isShow={isShow} />
     </nav>
   );
 }
