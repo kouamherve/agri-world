@@ -6,6 +6,7 @@ import About from "./About";
 import WhatWeDo from "./WhatWeDo";
 import BeforeAndAfter from "./BeforeAndAfter";
 import HealthyFood from "./HealthyFood";
+import Statistic from "./Statistic";
 
 export default function Homepage() {
   return (
@@ -19,6 +20,7 @@ export default function Homepage() {
       <WhatWeDo />
       <BeforeAndAfter />
       <HealthyFood />
+      <Statistic />
     </div>
   );
 }
