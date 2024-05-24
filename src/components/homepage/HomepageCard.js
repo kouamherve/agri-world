@@ -1,3 +1,4 @@
+import Button from "../../reusable-ui/Button";
 import HomepageMiniCard from "./HomepageMiniCard";
 
 export default function HomepageCard({ slide }) {
@@ -13,9 +14,10 @@ export default function HomepageCard({ slide }) {
         <p className="text-white text-4xl font-extrabold mt-2 mb-6">
           {slide.title}
         </p>
-        <button className=" bg-white text-green-600 text-base font-bold capitalize px-6 py-4 rounded-3xl">
-          Read more
-        </button>
+        <Button
+          className="bg-white text-green-600 px-8 py-5"
+          title="Read more"
+        />
       </div>
       <div className=" absolute m-4 bottom-0 right-0 flex items-center justify-center">
         <HomepageMiniCard image="https://cdn.pixabay.com/photo/2024/04/08/14/09/nature-8683570_1280.jpg" />

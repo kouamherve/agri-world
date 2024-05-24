@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className=" z-50 fixed top-0 left-0 right-0 px-4 py-2 bg-white font-Montserrat w-full flex flex-wrap items-center justify-between  shadow overflow-x-hidden">
       <div>
         <Link to="#">
-          <h1 className=" text-2xl font-bold">
+          <h1 className=" text-2xl font-extrabold">
             Agri-<span className=" text-green-600">world</span>
           </h1>
         </Link>
