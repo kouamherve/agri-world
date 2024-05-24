@@ -11,7 +11,7 @@ export default function WhatWeDo() {
         />
       </div>
       <div className=" mx-4 pt-14 font-Montserrat capitalize">
-        <h4 className=" text-base text-green-600 font-medium">What we do</h4>
+        <h4 className=" text-sm text-green-600 font-medium">What we do</h4>
         <h1 className=" text-[28px] font-bold mt-0">What we offer for you</h1>
         <p className=" text-gray-500 mt-2 mb-8 ">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dicta

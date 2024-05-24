@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Button({ className, title }) {
+export default function Button({ className, children }) {
   return (
     <button
-      className={`${className} text-[15px] font-bold capitalize rounded-3xl shadow`}
+      className={`${className} text-[15px] font-bold capitalize rounded-full shadow hover:bg-transparent`}
     >
-      {title}
+      {children}
     </button>
   );
 }

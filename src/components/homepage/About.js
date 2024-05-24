@@ -6,7 +6,7 @@ export default function About() {
     <div className=" bg-violet-100/50 pt-14 pb-14">
       <div className=" mx-4 pb-8 font-Montserrat capitalize">
         <div className="">
-          <h4 className=" text-base text-green-600 font-medium">About us</h4>
+          <h4 className=" text-sm text-green-600 font-medium">About us</h4>
           <h1 className=" text-[28px] font-bold">
             A new way to invest in agriculture
           </h1>
@@ -18,10 +18,9 @@ export default function About() {
           praesentium quo fugit deleniti quam eveniet. Veritatis, eius veniam
           soluta in placeat dolorem.
         </p>
-        <Button
-          className="bg-green-600 text-white px-7 py-4 mb-8"
-          title="read more"
-        />
+        <Button className="bg-green-600 text-white hover:text-green-600 border border-green-600 px-7 py-4 mb-8">
+          Read more
+        </Button>
       </div>
       <div className=" mx-4 h-80 w-fit">
         <img

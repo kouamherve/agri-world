@@ -7,6 +7,7 @@ import WhatWeDo from "./WhatWeDo";
 import BeforeAndAfter from "./BeforeAndAfter";
 import HealthyFood from "./HealthyFood";
 import Statistic from "./Statistic";
+import GetUpdated from "./GetUpdated";
 
 export default function Homepage() {
   return (
@@ -21,6 +22,7 @@ export default function Homepage() {
       <BeforeAndAfter />
       <HealthyFood />
       <Statistic />
+      <GetUpdated />
     </div>
   );
 }
