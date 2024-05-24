@@ -3,10 +3,10 @@ import Button from "../../reusable-ui/Button";
 
 export default function About() {
   return (
-    <div className=" bg-violet-100/50 pt-14 pb-20">
+    <div className=" bg-violet-100/50 pt-14 pb-14">
       <div className=" mx-4 pb-8 font-Montserrat capitalize">
         <h3 className=" text-base text-green-600 font-medium">About us</h3>
-        <h1 className=" text-3xl font-bold tracking-wide mt-1">
+        <h1 className=" text-[28px] font-bold  mt-0.5">
           A new way to invest in agriculture
         </h1>
         <p className=" text-gray-500 mt-4 mb-8 ">
