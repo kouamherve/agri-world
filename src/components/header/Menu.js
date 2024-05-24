@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Menu({ isShow }) {
   return (
     <div className={`${isShow ? "block" : "hidden"} w-full p-4 font-bold`}>
-      <ul className="flex flex-col items-center gap-4">
+      <ul className="flex flex-col items-center gap-4 text-lg">
         <Link>
           <li>Home</li>
         </Link>

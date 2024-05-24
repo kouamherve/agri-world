@@ -4,6 +4,8 @@ import HomepageCard from "./HomepageCard";
 import { slides } from "./Data";
 import About from "./About";
 import WhatWeDo from "./WhatWeDo";
+import BeforeAndAfter from "./BeforeAndAfter";
+import HealthyFood from "./HealthyFood";
 
 export default function Homepage() {
   return (
@@ -15,6 +17,8 @@ export default function Homepage() {
       </Caroussel>
       <About />
       <WhatWeDo />
+      <BeforeAndAfter />
+      <HealthyFood />
     </div>
   );
 }

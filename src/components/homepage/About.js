@@ -5,11 +5,13 @@ export default function About() {
   return (
     <div className=" bg-violet-100/50 pt-14 pb-14">
       <div className=" mx-4 pb-8 font-Montserrat capitalize">
-        <h3 className=" text-base text-green-600 font-medium">About us</h3>
-        <h1 className=" text-[28px] font-bold  mt-0.5">
-          A new way to invest in agriculture
-        </h1>
-        <p className=" text-gray-500 mt-4 mb-8 ">
+        <div className="">
+          <h4 className=" text-base text-green-600 font-medium">About us</h4>
+          <h1 className=" text-[28px] font-bold">
+            A new way to invest in agriculture
+          </h1>
+        </div>
+        <p className=" text-gray-500 mt-2 mb-8 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad,
           omnis repellendus quidem pariatur eum velit corrupti voluptatum,
           minima aliquid suscipit enim dolorem perspiciatis rem molestiae fuga

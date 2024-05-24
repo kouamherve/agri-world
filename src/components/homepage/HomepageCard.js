@@ -11,7 +11,7 @@ export default function HomepageCard({ slide }) {
       />
       <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat">
         <h3 className="text-white text-base font-light">{slide.subTitle}</h3>
-        <p className="text-white text-4xl font-extrabold mt-2 mb-6">
+        <p className="text-white text-4xl font-extrabold mt-0 mb-6">
           {slide.title}
         </p>
         <Button
