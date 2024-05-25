@@ -11,10 +11,10 @@ export default function HomepageCard({ slide }) {
       />
       <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat">
         <h3 className="text-white text-sm font-light">{slide.subTitle}</h3>
-        <p className="text-white text-4xl font-extrabold mt-0 mb-6">
+        <p className="text-white text-4xl font-extrabold mt-0 mb-6 max-[320px]:text-3xl">
           {slide.title}
         </p>
-        <Button className="bg-white text-green-600 hover:text-white text-lg border border-white px-8 py-5 ">
+        <Button className="bg-white text-green-600 hover:text-white text-lg border border-white px-8 py-5 max-[320px]:px-5 max-[320px]:py-3 max-[320px]:text-sm">
           Read more
         </Button>
       </div>
