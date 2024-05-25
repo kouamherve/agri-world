@@ -6,7 +6,7 @@ export default function HealthyFood() {
     <div className=" pb-14">
       <div className=" mx-4 pt-14 font-Montserrat capitalize">
         <h3 className=" text-sm text-green-600 font-medium">Healthy food</h3>
-        <h1 className=" text-[28px] font-bold mt-0">
+        <h1 className=" text-[28px] font-bold">
           We provide high-quality <br />
           organic products
         </h1>

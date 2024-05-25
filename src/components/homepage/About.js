@@ -11,7 +11,7 @@ export default function About() {
             A new way to invest in agriculture
           </h1>
         </div>
-        <p className=" text-gray-500 mt-2 mb-8 ">
+        <p className=" text-gray-500 mt-2 mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad,
           omnis repellendus quidem pariatur eum velit corrupti voluptatum,
           minima aliquid suscipit enim dolorem perspiciatis rem molestiae fuga
