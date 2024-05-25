@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
+import { IoMenu } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
@@ -18,13 +18,9 @@ export default function Navbar() {
       </div>
       <div
         onClick={() => setIsShow(!isShow)}
-        className="p-1 text-2xl cursor-pointer border-2 border-gray-500 rounded-lg "
+        className="text-[34px] cursor-pointer "
       >
-        {isShow ? (
-          <AiOutlineClose className=" text-gray-500" />
-        ) : (
-          <CiMenuBurger className=" text-gray-500" />
-        )}
+        {isShow ? <AiOutlineClose /> : <IoMenu />}
       </div>
       <Menu isShow={isShow} />
     </nav>
