@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
+import { MdDarkMode } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
 
@@ -18,8 +19,9 @@ export default function Navbar() {
       </div>
       <div
         onClick={() => setIsShow(!isShow)}
-        className="text-[34px] cursor-pointer "
+        className="text-[34px] cursor-pointer flex items-center gap-4"
       >
+        <MdDarkMode className=" text-[28px]" />
         {isShow ? <AiOutlineClose /> : <IoMenu />}
       </div>
       <Menu isShow={isShow} />
