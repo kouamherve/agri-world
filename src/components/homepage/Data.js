@@ -5,6 +5,12 @@ export const slides = [
     title: "Experience them real agricultural",
     imageUrl:
       "https://cdn.pixabay.com/photo/2022/07/04/10/45/garden-radish-7300875_1280.jpg",
+    titleMini1: "Organic Fertilizers",
+    imageUrlMini1:
+      "https://cdn.pixabay.com/photo/2024/04/08/14/09/nature-8683570_1280.jpg",
+    titleMini2: "Expert & professionel Farm",
+    imageUrlMini2:
+      "https://cdn.pixabay.com/photo/2017/02/23/23/24/farm-2093482_1280.jpg",
   },
 
   {
@@ -13,6 +19,12 @@ export const slides = [
     title: "Healthy food for good health",
     imageUrl:
       "https://cdn.pixabay.com/photo/2016/08/11/08/04/vegetables-1584999_1280.jpg",
+    titleMini1: "Agricultural Products",
+    imageUrlMini1:
+      "https://cdn.pixabay.com/photo/2014/08/12/23/38/tomatoes-417104_1280.jpg",
+    titleMini2: "Fresh Dairy Products",
+    imageUrlMini2:
+      "https://cdn.pixabay.com/photo/2017/10/03/10/23/dairy-farm-2811887_1280.jpg",
   },
   {
     id: 3,
@@ -20,6 +32,12 @@ export const slides = [
     title: "Healthy milk for good health",
     imageUrl:
       "https://cdn.pixabay.com/photo/2017/06/23/23/50/cow-2436354_1280.jpg",
+    titleMini1: "Organic Fertilizers",
+    imageUrlMini1:
+      "https://cdn.pixabay.com/photo/2020/05/21/15/38/fertilizer-5201380_1280.jpg",
+    titleMini2: "Expert & professionel Farm",
+    imageUrlMini2:
+      "https://cdn.pixabay.com/photo/2014/08/26/15/17/vineyard-428041_1280.jpg",
   },
   {
     id: 4,
@@ -27,5 +45,11 @@ export const slides = [
     title: "Experience them real agricultural",
     imageUrl:
       "https://cdn.pixabay.com/photo/2023/09/25/16/18/agriculture-8275498_1280.jpg",
+    titleMini1: "Agricultural Fields",
+    imageUrlMini1:
+      "https://cdn.pixabay.com/photo/2018/07/30/00/05/tractor-3571452_1280.jpg",
+    titleMini2: "Fresh Dairy Products",
+    imageUrlMini2:
+      "https://cdn.pixabay.com/photo/2023/04/28/19/27/cow-7957275_1280.jpg",
   },
 ];
