@@ -7,8 +7,8 @@ export const slides = [
       "https://cdn.pixabay.com/photo/2022/07/04/10/45/garden-radish-7300875_1280.jpg",
     titleMini1: "Organic Fertilizers",
     imageUrlMini1:
-      "https://cdn.pixabay.com/photo/2024/04/08/14/09/nature-8683570_1280.jpg",
-    titleMini2: "Expert & professionel Farm",
+      "https://cdn.pixabay.com/photo/2017/09/11/05/39/potatoes-2737945_1280.jpg",
+    titleMini2: "Expert & professional Farm",
     imageUrlMini2:
       "https://cdn.pixabay.com/photo/2017/02/23/23/24/farm-2093482_1280.jpg",
   },
@@ -35,7 +35,7 @@ export const slides = [
     titleMini1: "Organic Fertilizers",
     imageUrlMini1:
       "https://cdn.pixabay.com/photo/2020/05/21/15/38/fertilizer-5201380_1280.jpg",
-    titleMini2: "Expert & professionel Farm",
+    titleMini2: "Expert & professional Farm",
     imageUrlMini2:
       "https://cdn.pixabay.com/photo/2014/08/26/15/17/vineyard-428041_1280.jpg",
   },
