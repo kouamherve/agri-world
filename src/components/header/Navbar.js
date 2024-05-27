@@ -14,7 +14,7 @@ export default function Navbar() {
       <div>
         <Link to="#">
           <h1 className=" text-2xl text-black font-bold md:text-3xl lg:text-nowrap">
-            Agri-<span className=" text-green-700">world</span>
+            Agri-<span className=" text-primary">world</span>
           </h1>
         </Link>
       </div>
@@ -27,7 +27,7 @@ export default function Navbar() {
       </div>
       <Menu isShow={isShow} />
       <div className=" hidden lg:flex items-center justify-between gap-4 ">
-        <Button className="px-10 py-3.5 text-nowrap bg-green-700 text-white">
+        <Button className="px-10 py-3.5 text-nowrap bg-primary text-white">
           Free Quote
         </Button>
         <MdDarkMode className=" text-2xl md:text-[26px] text-gray-600" />
