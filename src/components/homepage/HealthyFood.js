@@ -6,11 +6,11 @@ export default function HealthyFood() {
     <div className=" pb-14">
       <div className=" mx-4 pt-14 font-Montserrat capitalize">
         <h3 className=" text-sm text-green-600 font-medium">Healthy food</h3>
-        <h1 className=" text-[28px] font-bold">
+        <h1 className=" text-[28px] font-bold max-[320px]:text-[26px]">
           We provide high-quality <br />
           organic products
         </h1>
-        <p className=" text-gray-500 mt-2 mb-8 ">
+        <p className=" text-gray-500 mt-2 mb-8 max-[320px]:text-justify max-[320px]:text-[15px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nobis!
         </p>
       </div>
