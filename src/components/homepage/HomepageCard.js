@@ -16,7 +16,7 @@ export default function HomepageCard({ slide }) {
         <p className="text-white text-4xl font-extrabold mt-0 mb-6 max-[320px]:text-3xl sm:mb-3 sm:pr-40 sm:text-5xl md:text-[55px] md:pr-10 md:mb-8 md:mt-2 lg:pr-14 xl:text-7xl xl:pr-32">
           {slide.title}
         </p>
-        <Button className="bg-white text-green-700 hover:text-white text-base border border-white px-5 py-3 max-[320px]:px-4 max-[320px]:py-2 max-[320px]:text-sm sm:px-8 sm:py-3 sm:text-base md:px-12 md:py-4 md:text-base lg:px-10 lg:py-3 lg:mt-3 xl:px-12 xl:py-4">
+        <Button className="bg-white text-primary hover:text-white text-base border border-white px-5 py-3 max-[320px]:px-6 max-[320px]:py-4 max-[320px]:text-sm sm:px-8 sm:py-3 sm:text-base md:px-12 md:py-4 md:text-base lg:px-10 lg:py-3 lg:mt-3 xl:px-12 xl:py-4">
           Read more
         </Button>
       </div>
