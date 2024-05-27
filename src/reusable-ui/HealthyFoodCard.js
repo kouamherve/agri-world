@@ -2,9 +2,9 @@ import React from "react";
 
 export default function HealthyFoodCard({ image, title }) {
   return (
-    <div className=" font-Montserrat mx-4 shadow-sm">
+    <div className=" font-Montserrat mx-4 shadow-sm sm:mx-16">
       <img
-        className=" object-cover object-center w-full h-64 rounded-t-lg max-[320px]:h-44 max-[425px]:h-[270px]"
+        className=" object-cover object-center w-full h-64 rounded-t-lg max-[320px]:h-44 max-[425px]:h-[270px] sm:h-80"
         src={image}
         alt=""
       />
