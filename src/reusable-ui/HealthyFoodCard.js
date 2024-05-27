@@ -4,7 +4,7 @@ export default function HealthyFoodCard({ image, title }) {
   return (
     <div className=" font-Montserrat mx-4 shadow-sm">
       <img
-        className=" object-cover object-center w-full h-64 rounded-t-lg max-[320px]:h-44"
+        className=" object-cover object-center w-full h-64 rounded-t-lg max-[320px]:h-44 max-[425px]:h-[270px]"
         src={image}
         alt=""
       />
