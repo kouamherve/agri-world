@@ -5,7 +5,7 @@ export default function HomepageCard({ slide }) {
   return (
     <div className="w-full h-[345px] flex justify-center items-center relative sm:h-[245px] md:h-[520px] lg:h-screen">
       <img
-        className="w-full h-full object-cover object-top brightness-50 sm:object-bottom md:object-center"
+        className="w-full h-full object-cover object-top brightness-[0.4] sm:object-bottom md:object-center"
         src={slide.imageUrl}
         alt={slide.title}
       />

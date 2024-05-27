@@ -9,19 +9,19 @@ export default function Menu({ isShow }) {
     >
       <ul className="flex flex-col items-center gap-4 text-lg lg:flex-row lg:text-base lg:gap-6">
         <Link>
-          <li className=" text-green-700">Home</li>
+          <li className=" text-primary">Home</li>
         </Link>
         <Link>
-          <li className=" hover:text-green-700">About</li>
+          <li className=" hover:text-primary">About</li>
         </Link>
         <Link>
-          <li className=" hover:text-green-700">Services</li>
+          <li className=" hover:text-primary">Services</li>
         </Link>
         <Link>
-          <li className=" hover:text-green-700">Gallery</li>
+          <li className=" hover:text-primary">Gallery</li>
         </Link>
         <Link>
-          <li className=" hover:text-green-700">Contact</li>
+          <li className=" hover:text-primary">Contact</li>
         </Link>
       </ul>
     </div>

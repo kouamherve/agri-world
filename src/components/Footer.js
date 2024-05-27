@@ -12,28 +12,30 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className=" bg-black text-white font-Montserrat pt-14 overflow-x-hidden">
+    <div className=" bg-black text-footer font-Montserrat pt-14 overflow-x-hidden">
       <div className="mx-4">
-        <div className="">
+        <div>
           <div>
-            <h1 className=" text-xl font-extrabold">About us</h1>
-            <p className=" text-gray-500 my-4">
+            <h1 className=" text-xl text-white font-extrabold">About us</h1>
+            <p className="my-4 max-[320px]:text-justify max-[320px]:text-[15px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
               laboriosam, inventore cumque aliquam natus voluptatibus
               praesentium minima ducimus rem eius quod temporibus dicta
               consectetur.
             </p>
           </div>
-          <div className="flex items-center gap-6">
-            <FaFacebookF className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer " />
-            <FaInstagram className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer " />
-            <FaTwitter className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer " />
-            <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer " />
+          <div className="flex items-center gap-6 text-white">
+            <FaFacebookF className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
+            <FaInstagram className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
+            <FaTwitter className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
+            <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
           </div>
         </div>
         <div className="mt-8">
-          <h1 className=" text-xl font-extrabold mb-4">Useful links</h1>
-          <ul className="text-gray-500 flex flex-col gap-4">
+          <h1 className=" text-xl text-white font-extrabold mb-4">
+            Useful links
+          </h1>
+          <ul className="text-footerLinks flex flex-col gap-4">
             <Link>
               <li>Home</li>
             </Link>
@@ -49,8 +51,8 @@ export default function Footer() {
           </ul>
         </div>
         <div className="mt-8">
-          <h1 className=" text-xl font-extrabold mb-4">Services</h1>
-          <ul className="text-gray-500 flex flex-col gap-4">
+          <h1 className=" text-xl text-white font-extrabold mb-4">Services</h1>
+          <ul className="text-footerLinks flex flex-col gap-4">
             <Link>
               <li>Healthy Milk</li>
             </Link>
@@ -69,8 +71,10 @@ export default function Footer() {
           </ul>
         </div>
         <div className="mt-8 mb-14">
-          <h1 className=" text-xl font-extrabold mb-4">Contact Us</h1>
-          <ul className="text-gray-500 flex flex-col gap-4">
+          <h1 className=" text-xl text-white font-extrabold mb-4">
+            Contact Us
+          </h1>
+          <ul className="text-footerLinks flex flex-col gap-4">
             <Link>
               <li className="flex items-center gap-2">
                 <PiMapPinFill className=" text-white" />
@@ -92,14 +96,14 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" bg-neutral-900 p-8 w-full text-center text-gray-600 font-Montserrat">
+      <div className=" bg-neutral-900 p-8 w-full text-center text-footerLinks font-Montserrat">
         <div className=" flex items-center justify-center gap-1">
           <div className="flex flex-col items-center justify-center">
             <span className="flex items-center gap-1">
               <RiCopyrightLine />
               2024 agriworld.
             </span>
-            <span className=" text-sm">All right reserved</span>
+            <span>All right reserved</span>
           </div>
         </div>
       </div>

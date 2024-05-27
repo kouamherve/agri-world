@@ -6,6 +6,12 @@ module.exports = {
       fontFamily: {
         Montserrat: "Montserrat",
       },
+      colors: {
+        primary: "#1FA12E",
+        secondary: "#936BE80D",
+        footer: "#ABABAB",
+        footerLinks: "#6E747B",
+      },
     },
   },
   plugins: [],

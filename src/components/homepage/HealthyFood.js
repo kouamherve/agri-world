@@ -25,7 +25,7 @@ export default function HealthyFood() {
         />
         <HealthyFoodCard
           title="fresh milk"
-          image="https://cdn.pixabay.com/photo/2015/07/11/23/00/bottle-841431_1280.jpg"
+          image="https://cdn.pixabay.com/photo/2017/01/18/15/23/milk-can-1990072_1280.jpg"
         />
       </div>
     </div>
