@@ -27,7 +27,7 @@ export default function ClientTalking() {
         <h4 className=" text-sm text-primary font-medium">
           Here's what they have to say
         </h4>
-        <h2 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px]">
+        <h2 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px] max-[425px]:text-3xl">
           Our clients do the talking
         </h2>
       </div>
@@ -45,13 +45,15 @@ export default function ClientTalking() {
                   veritatis explicabo illo.
                 </p>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-4">
                 <img
                   className=" size-20 object-cover object-top rounded-full"
                   src={client.image}
                   alt=""
                 />
-                <h2 className=" font-bold text-sm">{client.name}</h2>
+                <h2 className=" font-bold text-sm max-[425px]:text-base">
+                  {client.name}
+                </h2>
               </div>
             </div>
           ))}
