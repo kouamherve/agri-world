@@ -3,7 +3,7 @@ import Check from "../../reusable-ui/Check";
 export default function WhatWeDo() {
   return (
     <div className=" pt-14 pb-14">
-      <div className=" mx-4 h-72 w-fit max-[320px]:h-64">
+      <div className=" mx-4 h-72 w-fit max-[320px]:h-64 max-[425px]:h-80    ">
         <img
           className=" object-cover object-center w-full h-full rounded-lg"
           src="https://cdn.pixabay.com/photo/2018/10/03/21/57/cabbage-3722498_1280.jpg"
@@ -12,7 +12,7 @@ export default function WhatWeDo() {
       </div>
       <div className=" mx-4 pt-14 font-Montserrat capitalize">
         <h4 className=" text-sm text-primary font-medium">What we do</h4>
-        <h1 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px]">
+        <h1 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px] max-[425px]:text-3xl">
           What we offer for you
         </h1>
         <p className=" text-gray-500 mt-2 mb-8 max-[320px]:text-justify">
