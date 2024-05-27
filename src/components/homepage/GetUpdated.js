@@ -6,7 +6,7 @@ export default function GetUpdated() {
     "https://cdn.pixabay.com/photo/2020/06/23/06/45/dji-5331570_1280.jpg";
   return (
     <div
-      className=" py-14 text-white font-Montserrat capitalize bg-cover bg-center bg-black/50 bg-blend-darken"
+      className=" py-14 text-white font-Montserrat capitalize bg-cover bg-center bg-black/65 bg-blend-darken"
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className=" mx-4">
@@ -16,15 +16,15 @@ export default function GetUpdated() {
         </p>
         <form action="" className="my-6">
           <input
-            className=" w-full rounded-full py-3.5 px-4 placeholder-gray-400 text-gray-800 mb-4"
+            className=" w-full rounded-full py-3 px-4 placeholder-gray-500 text-gray-800 mb-4"
             type="text"
             placeholder="Enter your Email..."
           />
-          <Button className="text-white hover:text-green-600 text-lg bg-green-600 border border-green-600 py-3 w-full">
+          <Button className="text-white hover:text-primary text-lg bg-primary border border-primary py-3 w-full max-[320px]:text-base">
             Subscribe
           </Button>
         </form>
-        <p className=" text-xs tracking-wider font-medium">
+        <p className=" text-base tracking-wider font-medium max-[320px]:text-[13px]">
           By subscribing this form, you agree to the{" "}
           <span className=" text-green-500">privacy policy </span>and{" "}
           <span className=" text-green-500">terms of use</span>.
