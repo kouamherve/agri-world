@@ -24,7 +24,7 @@ export default function GetUpdated() {
             Subscribe
           </Button>
         </form>
-        <p className=" text-base tracking-wider font-medium max-[320px]:text-[13px]">
+        <p className=" text-[15px] tracking-wider font-medium max-[320px]:text-[13px]">
           By subscribing this form, you agree to the{" "}
           <span className=" text-green-500">privacy policy </span>and{" "}
           <span className=" text-green-500">terms of use</span>.
