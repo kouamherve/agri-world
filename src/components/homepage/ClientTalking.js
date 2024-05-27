@@ -27,7 +27,7 @@ export default function ClientTalking() {
         <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
         </h4>
-        <h2 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px] max-[425px]:text-3xl sm:text-4xl">
+        <h2 className=" text-[26px] leading-8 mt-1 font-bold sm:text-4xl">
           Our clients do the talking
         </h2>
       </div>
@@ -39,19 +39,19 @@ export default function ClientTalking() {
               className=" bg-secondary px-8 py-5 mt-10 rounded-2xl sm:px-12"
             >
               <div>
-                <FaComment className=" text-5xl text-primary ml-[80%]" />
-                <p className=" leading-7 text-justify text-gray-600 font-normal my-4 max-[320px]:text-[15px]">
+                <FaComment className=" text-4xl text-primary ml-[80%]" />
+                <p className="text-justify text-gray-600 font-normal my-2">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                   veritatis explicabo illo.
                 </p>
               </div>
               <div className="flex items-center gap-4 sm:gap-8">
                 <img
-                  className=" size-20 object-cover object-top rounded-full"
+                  className=" size-16 object-cover object-top rounded-full"
                   src={client.image}
                   alt=""
                 />
-                <h2 className=" font-bold text-sm max-[425px]:text-base sm:text-lg">
+                <h2 className=" font-bold text-base sm:text-lg">
                   {client.name}
                 </h2>
               </div>

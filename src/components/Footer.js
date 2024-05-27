@@ -13,11 +13,11 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className=" bg-black text-footer font-Montserrat pt-14 overflow-x-hidden">
-      <div className="mx-4">
+      <div className="mx-4 sm:mx-16">
         <div>
           <div>
             <h1 className=" text-xl text-white font-extrabold">About us</h1>
-            <p className="my-4 max-[320px]:text-justify max-[320px]:text-[15px]">
+            <p className="my-4 max-[320px]:text-justify max-[320px]:text-[15px] sm:text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
               laboriosam, inventore cumque aliquam natus voluptatibus
               praesentium minima ducimus rem eius quod temporibus dicta
@@ -25,10 +25,10 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex items-center gap-6 text-white">
-            <FaFacebookF className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
-            <FaInstagram className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
-            <FaTwitter className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
-            <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-4xl cursor-pointer max-[320px]:text-3xl " />
+            <FaFacebookF className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
+            <FaInstagram className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
+            <FaTwitter className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
+            <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
           </div>
         </div>
         <div className="mt-8">
@@ -96,15 +96,15 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" bg-neutral-900 p-8 w-full text-center text-footer font-Montserrat">
+      <div className=" bg-footerBg p-8 w-full text-center text-footer font-Montserrat">
         <div className=" flex items-center justify-center gap-1">
-          <div className="flex flex-col items-center justify-center ">
+          <div className="sm:flex gap-1 text-sm">
             <span className="flex items-center gap-1">
               <RiCopyrightLine />
-              2024 agriworld. All right reserved
+              2024 Agriworld. Build with love
             </span>
             <span>
-              Build by <span className=" text-footerLinks">Herve Kouam</span>
+              by <span className=" text-footerLinks">Herve Kouam</span>
             </span>
           </div>
         </div>

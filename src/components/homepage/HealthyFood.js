@@ -5,14 +5,14 @@ export default function HealthyFood() {
   return (
     <div className=" pb-14">
       <div className=" mx-4 pt-14 font-Montserrat capitalize sm:mx-16">
-        <h3 className=" text-sm text-green-600 font-medium sm:text-base">
+        <h3 className=" text-sm text-primary font-medium sm:text-base">
           Healthy food
         </h3>
-        <h1 className=" text-[28px] font-bold max-[320px]:text-[26px] max-[425px]:text-3xl sm:text-4xl">
+        <h1 className=" text-[26px] leading-8 font-bold sm:text-4xl">
           We provide high-quality <br />
           organic products
         </h1>
-        <p className=" text-gray-500 mt-2 mb-8 max-[320px]:text-justify max-[320px]:text-[15px] max-[425px]:text-base">
+        <p className=" text-gray-600 mt-4 mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nobis!
         </p>
       </div>
