@@ -96,14 +96,16 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" bg-neutral-900 p-8 w-full text-center text-footerLinks font-Montserrat">
+      <div className=" bg-neutral-900 p-8 w-full text-center text-footer font-Montserrat">
         <div className=" flex items-center justify-center gap-1">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center ">
             <span className="flex items-center gap-1">
               <RiCopyrightLine />
-              2024 agriworld.
+              2024 agriworld. All right reserved
             </span>
-            <span>All right reserved</span>
+            <span>
+              Build by <span className=" text-footerLinks">Herve Kouam</span>
+            </span>
           </div>
         </div>
       </div>
