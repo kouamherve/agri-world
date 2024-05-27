@@ -24,19 +24,19 @@ export default function ClientTalking() {
   return (
     <div className=" py-14 font-Montserrat">
       <div className=" capitalize text-center px-6">
-        <h4 className=" text-sm text-primary font-medium">
+        <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
         </h4>
-        <h2 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px] max-[425px]:text-3xl">
+        <h2 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px] max-[425px]:text-3xl sm:text-4xl">
           Our clients do the talking
         </h2>
       </div>
-      <div className=" mx-4">
+      <div className=" mx-4 sm:mx-16">
         <Carousel autoSlide={false} autoSlideInterval={5000}>
           {clients.map((client) => (
             <div
               key={client.name}
-              className=" bg-secondary px-8 py-5 mt-10 rounded-2xl"
+              className=" bg-secondary px-8 py-5 mt-10 rounded-2xl sm:px-12"
             >
               <div>
                 <FaComment className=" text-5xl text-primary ml-[80%]" />
@@ -45,13 +45,13 @@ export default function ClientTalking() {
                   veritatis explicabo illo.
                 </p>
               </div>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 sm:gap-8">
                 <img
                   className=" size-20 object-cover object-top rounded-full"
                   src={client.image}
                   alt=""
                 />
-                <h2 className=" font-bold text-sm max-[425px]:text-base">
+                <h2 className=" font-bold text-sm max-[425px]:text-base sm:text-lg">
                   {client.name}
                 </h2>
               </div>
