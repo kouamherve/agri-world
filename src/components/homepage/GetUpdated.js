@@ -9,7 +9,7 @@ export default function GetUpdated() {
       className=" py-14 text-white font-Montserrat capitalize bg-cover bg-center bg-black/65 bg-blend-darken"
       style={{ backgroundImage: `url(${image})` }}
     >
-      <div className=" mx-4">
+      <div className=" mx-4 sm:mx-16">
         <h1 className=" text-3xl font-semibold">Get update from anywhere</h1>
         <p className=" text-lg tracking-wider mt-2">
           Don't miss out on the good news!
