@@ -9,7 +9,7 @@ export default function HomepageCard({ slide }) {
         src={slide.imageUrl}
         alt={slide.title}
       />
-      <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat md:mx-8 lg:mx-14 lg:-translate-y-14 xl:mx-36">
+      <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat md:mx-8 lg:mx-14 lg:-translate-y-14 xl:mx-36 2xl:mx-52">
         <h3 className="text-white text-sm font-light md:text-lg">
           {slide.subTitle}
         </h3>

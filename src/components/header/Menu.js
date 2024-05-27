@@ -5,7 +5,7 @@ export default function Menu({ isShow }) {
     <div
       className={`${
         isShow ? "block" : "hidden lg:block"
-      } w-full p-4 font-bold text-gray-800 lg:translate-x-10 xl:translate-x-64`}
+      } w-full p-4 font-bold text-black lg:translate-x-10 xl:translate-x-[272px] 2xl:translate-x-60`}
     >
       <ul className="flex flex-col items-center gap-4 text-lg lg:flex-row lg:text-base lg:gap-6">
         <Link>
