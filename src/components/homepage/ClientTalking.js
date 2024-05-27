@@ -24,10 +24,10 @@ export default function ClientTalking() {
   return (
     <div className=" py-14 font-Montserrat">
       <div className=" capitalize text-center px-6">
-        <h4 className=" text-sm text-green-600 font-medium">
+        <h4 className=" text-sm text-primary font-medium">
           Here's what they have to say
         </h4>
-        <h2 className=" text-[28px] font-bold mt-0">
+        <h2 className=" text-[28px] font-bold mt-0 max-[320px]:text-[26px]">
           Our clients do the talking
         </h2>
       </div>
@@ -36,11 +36,11 @@ export default function ClientTalking() {
           {clients.map((client) => (
             <div
               key={client.name}
-              className=" bg-violet-50 p-8 mt-10 rounded-2xl"
+              className=" bg-secondary px-8 py-5 mt-10 rounded-2xl"
             >
               <div>
-                <FaComment className=" text-5xl text-green-600" />
-                <p className=" leading-7 text-base text-gray-600 font-normal my-4 ">
+                <FaComment className=" text-5xl text-primary ml-[80%]" />
+                <p className=" leading-7 text-justify text-gray-600 font-normal my-4 max-[320px]:text-[15px]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                   veritatis explicabo illo.
                 </p>
