@@ -4,13 +4,15 @@ import HealthyFoodCard from "../../reusable-ui/HealthyFoodCard";
 export default function HealthyFood() {
   return (
     <div className=" pb-14">
-      <div className=" mx-4 pt-14 font-Montserrat capitalize">
-        <h3 className=" text-sm text-green-600 font-medium">Healthy food</h3>
-        <h1 className=" text-[28px] font-bold">
+      <div className=" mx-4 pt-14 font-Montserrat capitalize sm:mx-16">
+        <h3 className=" text-sm text-primary font-medium sm:text-base">
+          Healthy food
+        </h3>
+        <h1 className=" text-[26px] leading-8 font-bold sm:text-4xl">
           We provide high-quality <br />
           organic products
         </h1>
-        <p className=" text-gray-500 mt-2 mb-8 ">
+        <p className=" text-gray-600 mt-4 mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nobis!
         </p>
       </div>
@@ -25,7 +27,7 @@ export default function HealthyFood() {
         />
         <HealthyFoodCard
           title="fresh milk"
-          image="https://cdn.pixabay.com/photo/2015/07/11/23/00/bottle-841431_1280.jpg"
+          image="https://cdn.pixabay.com/photo/2017/01/18/15/23/milk-can-1990072_1280.jpg"
         />
       </div>
     </div>

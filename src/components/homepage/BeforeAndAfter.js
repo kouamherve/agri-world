@@ -2,10 +2,10 @@ import React from "react";
 
 export default function BeforeAndAfter() {
   return (
-    <div className=" bg-violet-100/50 py-14 space-y-6">
-      <div className=" relative mx-4">
+    <div className=" bg-secondary py-14 space-y-6">
+      <div className=" relative mx-4 sm:mx-16">
         <img
-          className=" object-cover object-center w-full h-[280px] rounded-lg"
+          className=" object-cover object-center w-full h-64 rounded-lg sm:h-80"
           src="https://cdn.pixabay.com/photo/2017/10/08/19/47/arable-2831301_1280.jpg"
           alt="Before"
         />
@@ -13,9 +13,9 @@ export default function BeforeAndAfter() {
           Before
         </span>
       </div>
-      <div className=" relative mx-4">
+      <div className=" relative mx-4 sm:mx-16">
         <img
-          className=" object-cover object-center w-full h-[280px] rounded-lg"
+          className=" object-cover object-center w-full h-64 rounded-lg sm:h-80"
           src="https://cdn.pixabay.com/photo/2015/08/08/22/39/field-880966_1280.jpg"
           alt="After"
         />

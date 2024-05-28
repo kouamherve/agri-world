@@ -24,34 +24,36 @@ export default function ClientTalking() {
   return (
     <div className=" py-14 font-Montserrat">
       <div className=" capitalize text-center px-6">
-        <h4 className=" text-sm text-green-600 font-medium">
+        <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
         </h4>
-        <h2 className=" text-[28px] font-bold mt-0">
+        <h2 className=" text-[26px] leading-8 mt-1 font-bold sm:text-4xl">
           Our clients do the talking
         </h2>
       </div>
-      <div className=" mx-4">
+      <div className=" mx-4 sm:mx-16">
         <Carousel autoSlide={false} autoSlideInterval={5000}>
           {clients.map((client) => (
             <div
               key={client.name}
-              className=" bg-violet-50 p-8 mt-10 rounded-2xl"
+              className=" bg-secondary px-8 py-5 mt-10 rounded-2xl sm:px-12"
             >
               <div>
-                <FaComment className=" text-5xl text-green-600" />
-                <p className=" leading-7 text-base text-gray-600 font-normal my-4 ">
+                <FaComment className=" text-4xl text-primary ml-[80%]" />
+                <p className="text-justify text-gray-600 font-normal my-2">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                   veritatis explicabo illo.
                 </p>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-4 sm:gap-8">
                 <img
-                  className=" size-20 object-cover object-top rounded-full"
+                  className=" size-16 object-cover object-top rounded-full"
                   src={client.image}
                   alt=""
                 />
-                <h2 className=" font-bold text-sm">{client.name}</h2>
+                <h2 className=" font-bold text-base sm:text-lg">
+                  {client.name}
+                </h2>
               </div>
             </div>
           ))}
