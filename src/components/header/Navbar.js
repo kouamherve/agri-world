@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="z-50 fixed top-0 left-0 right-0 px-4 py-5 bg-white font-Montserrat w-full flex flex-wrap items-center justify-between shadow overflow-x-hidden sm:px-16">
       <div>
         <Link to="#">
-          <h1 className=" text-3xl text-black font-extrabold font-sans sm:text-3xl lg:text-nowrap">
+          <h1 className=" text-3xl text-black font-extrabold font-sans sm:text-4xl ">
             Agri<span className=" text-primary">world</span>
           </h1>
         </Link>
