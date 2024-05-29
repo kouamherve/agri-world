@@ -12,7 +12,7 @@ export default function HealthyFood() {
           We provide high-quality <br />
           organic products
         </h1>
-        <p className=" text-gray-600 mt-4 mb-8">
+        <p className=" text-gray-600 mt-5 mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nobis!
         </p>
       </div>
