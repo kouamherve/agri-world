@@ -13,11 +13,6 @@ module.exports = {
         footerLinks: "#6E747B",
         footerBg: "#111111",
       },
-      screens: {
-        xs: "320px",
-        xm: "425px",
-        ss: "540px",
-      },
     },
   },
   plugins: [],
