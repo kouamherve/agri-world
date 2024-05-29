@@ -39,13 +39,13 @@ export default function ClientTalking() {
               className=" bg-secondary px-8 py-5 mt-10 rounded-2xl sm:px-12"
             >
               <div>
-                <FaComment className=" text-4xl text-primary ml-[80%]" />
-                <p className="text-justify text-gray-600 font-normal my-2">
+                <FaComment className=" text-4xl text-primary ml-[90%]" />
+                <p className="text-justify text-gray-600 font-normal my-4">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                   veritatis explicabo illo.
                 </p>
               </div>
-              <div className="flex items-center gap-4 sm:gap-8">
+              <div className="flex items-center gap-4 sm:gap-6">
                 <img
                   className=" size-16 object-cover object-top rounded-full"
                   src={client.image}
