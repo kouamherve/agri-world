@@ -17,7 +17,7 @@ export default function Footer() {
         <div>
           <div>
             <h1 className=" text-xl text-white font-extrabold">About us</h1>
-            <p className="my-4 max-[320px]:text-justify max-[320px]:text-[15px] sm:text-base">
+            <p className="my-4 text-[15px] sm:text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
               laboriosam, inventore cumque aliquam natus voluptatibus
               praesentium minima ducimus rem eius quod temporibus dicta
@@ -98,7 +98,7 @@ export default function Footer() {
       </div>
       <div className=" bg-footerBg p-8 w-full text-center text-footer font-Montserrat">
         <div className=" flex items-center justify-center gap-1">
-          <div className="sm:flex gap-1 text-sm">
+          <div className="sm:flex gap-1 text-sm sm:text-base">
             <span className="flex items-center gap-1">
               <RiCopyrightLine />
               2024 Agriworld. Build with love
