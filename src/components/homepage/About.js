@@ -9,11 +9,11 @@ export default function About() {
           <h4 className=" text-sm text-primary font-medium sm:text-base">
             About us
           </h4>
-          <h1 className=" text-[26px] leading-8 font-bold sm:text-4xl">
+          <h1 className=" text-[26px] leading-8 font-bold sm:text-4xl sm:leading-none">
             A new way to invest in agriculture
           </h1>
         </div>
-        <p className=" text-gray-600 mt-3 mb-8">
+        <p className=" text-gray-600 mt-5 mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad,
           omnis repellendus quidem pariatur eum velit corrupti voluptatum,
           minima aliquid suscipit enim dolorem perspiciatis rem molestiae fuga
