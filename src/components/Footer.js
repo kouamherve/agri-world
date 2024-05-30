@@ -31,69 +31,73 @@ export default function Footer() {
             <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
           </div>
         </div>
-        <div className="mt-8">
-          <h1 className=" text-xl text-white font-extrabold mb-4">
-            Useful links
-          </h1>
-          <ul className="text-footerLinks flex flex-col gap-4">
-            <Link>
-              <li>Home</li>
-            </Link>
-            <Link>
-              <li>About</li>
-            </Link>
-            <Link>
-              <li>Services</li>
-            </Link>
-            <Link>
-              <li>Contact Us</li>
-            </Link>
-          </ul>
-        </div>
-        <div className="mt-8">
-          <h1 className=" text-xl text-white font-extrabold mb-4">Services</h1>
-          <ul className="text-footerLinks flex flex-col gap-4">
-            <Link>
-              <li>Healthy Milk</li>
-            </Link>
-            <Link>
-              <li>Organic Food</li>
-            </Link>
-            <Link>
-              <li>Fresh Fruits</li>
-            </Link>
-            <Link>
-              <li>Tree Planting</li>
-            </Link>
-            <Link>
-              <li>Gardening</li>
-            </Link>
-          </ul>
-        </div>
-        <div className="mt-8 mb-14">
-          <h1 className=" text-xl text-white font-extrabold mb-4">
-            Contact Us
-          </h1>
-          <ul className="text-footerLinks flex flex-col gap-4">
-            <Link>
-              <li className="flex items-center gap-2">
-                <PiMapPinFill className=" text-white" />
-                <span>Agriworld, #888 Kennedy rd Yaounde</span>
-              </li>
-            </Link>
-            <Link>
-              <li className="flex items-center gap-2">
-                <BsTelephoneFill className=" text-white" />
-                <span>+ (237)-690-55-63-39</span>
-              </li>
-            </Link>
-            <Link>
-              <li className="flex items-center gap-2">
-                <MdEmail className=" text-white" />
-                <span>agriworld237@gmail.com</span>
-              </li>
-            </Link>
-          </ul>
+        <div className=" md:grid grid-cols-3 md:my-10">
+          <div className="mt-8">
+            <h1 className=" text-xl text-white font-extrabold mb-4">
+              Useful links
+            </h1>
+            <ul className="text-footerLinks flex flex-col gap-4">
+              <Link>
+                <li>Home</li>
+              </Link>
+              <Link>
+                <li>About</li>
+              </Link>
+              <Link>
+                <li>Services</li>
+              </Link>
+              <Link>
+                <li>Contact Us</li>
+              </Link>
+            </ul>
+          </div>
+          <div className="mt-8">
+            <h1 className=" text-xl text-white font-extrabold mb-4">
+              Services
+            </h1>
+            <ul className="text-footerLinks flex flex-col gap-4">
+              <Link>
+                <li>Healthy Milk</li>
+              </Link>
+              <Link>
+                <li>Organic Food</li>
+              </Link>
+              <Link>
+                <li>Fresh Fruits</li>
+              </Link>
+              <Link>
+                <li>Tree Planting</li>
+              </Link>
+              <Link>
+                <li>Gardening</li>
+              </Link>
+            </ul>
+          </div>
+          <div className="mt-8 mb-14">
+            <h1 className=" text-xl text-white font-extrabold mb-4">
+              Contact Us
+            </h1>
+            <ul className="text-footerLinks flex flex-col gap-4">
+              <Link>
+                <li className="flex items-center gap-2">
+                  <PiMapPinFill className=" text-white" />
+                  <span>Agriworld, #888 Kennedy rd Yaounde</span>
+                </li>
+              </Link>
+              <Link>
+                <li className="flex items-center gap-2">
+                  <BsTelephoneFill className=" text-white" />
+                  <span>+ (237)-690-55-63-39</span>
+                </li>
+              </Link>
+              <Link>
+                <li className="flex items-center gap-2">
+                  <MdEmail className=" text-white" />
+                  <span>agriworld237@gmail.com</span>
+                </li>
+              </Link>
+            </ul>
+          </div>
         </div>
       </div>
       <div className=" bg-footerBg p-8 w-full text-center text-footer font-Montserrat">
