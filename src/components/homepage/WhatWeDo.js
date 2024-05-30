@@ -3,14 +3,14 @@ import Check from "../../reusable-ui/Check";
 export default function WhatWeDo() {
   return (
     <div className=" pt-14 pb-14">
-      <div className=" mx-4 h-64 w-auto sm:mx-16 sm:h-96">
+      <div className=" mx-4 h-64 w-auto sm:mx-16 sm:h-96 md:mx-8 md:h-[510px]">
         <img
           className=" object-cover object-center w-full h-full rounded-lg"
           src="https://cdn.pixabay.com/photo/2018/10/03/21/57/cabbage-3722498_1280.jpg"
           alt=""
         />
       </div>
-      <div className=" mx-4 pt-14 font-Montserrat capitalize sm:mx-16">
+      <div className=" mx-4 pt-14 font-Montserrat capitalize sm:mx-16 md:mx-8">
         <h4 className=" text-sm text-primary font-medium sm:text-base">
           What we do
         </h4>
@@ -21,7 +21,7 @@ export default function WhatWeDo() {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dicta
           laboriosam. Deserunt fugiat accusantium explicabo excepturi.
         </p>
-        <div className=" space-y-4">
+        <div className=" space-y-4 md:space-y-6">
           <Check service="weed control" />
           <Check service="pest control" />
           <Check service="grass sedding" />
