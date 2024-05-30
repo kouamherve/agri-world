@@ -4,11 +4,11 @@ import HealthyFoodCard from "../../reusable-ui/HealthyFoodCard";
 export default function HealthyFood() {
   return (
     <div className=" pb-14">
-      <div className=" mx-4 pt-14 font-Montserrat capitalize sm:mx-16">
+      <div className=" mx-4 pt-14 font-Montserrat capitalize sm:mx-16 md:mx-8">
         <h3 className=" text-sm text-primary font-medium sm:text-base">
           Healthy food
         </h3>
-        <h1 className=" text-[26px] leading-8 font-bold sm:text-4xl">
+        <h1 className=" text-[26px] leading-8 font-bold sm:text-4xl ">
           We provide high-quality <br />
           organic products
         </h1>
