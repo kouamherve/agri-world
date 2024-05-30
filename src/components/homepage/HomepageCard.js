@@ -3,20 +3,20 @@ import HomepageMiniCard from "./HomepageMiniCard";
 
 export default function HomepageCard({ slide }) {
   return (
-    <div className="w-full h-[345px] flex justify-center items-center relative sm:h-[520px] lg:h-screen">
+    <div className="w-full h-[345px] flex justify-center items-center relative sm:h-[520px] md:h-[640px] lg:h-screen">
       <img
         className="w-full h-full object-cover object-top brightness-[0.4] sm:object-bottom md:object-center"
         src={slide.imageUrl}
         alt={slide.title}
       />
-      <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat sm:mx-16">
-        <h3 className="text-white text-sm mb-2 font-light sm:text-base">
+      <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat sm:mx-16 md:mx-8">
+        <h3 className="text-white text-sm mb-2 font-light sm:text-base md:text-lg">
           {slide.subTitle}
         </h3>
-        <p className="text-white text-[32px] leading-snug font-extrabold mb-6 sm:text-[40px]">
+        <p className="text-white text-[32px] leading-snug font-extrabold mb-6 sm:text-[40px] md:text-5xl md:leading-normal">
           {slide.title}
         </p>
-        <Button className="bg-white mt-1 text-primary hover:text-white text-base border border-white px-5 py-3 sm:px-8 ">
+        <Button className="bg-white mt-1 text-primary hover:text-white text-base border border-white px-5 py-3 sm:px-8 md:px-10 md:py-4">
           Read more
         </Button>
       </div>
