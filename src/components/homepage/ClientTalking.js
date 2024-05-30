@@ -1,11 +1,11 @@
-import { FaComment } from "react-icons/fa";
+import { RiDoubleQuotesL } from "react-icons/ri";
 import Carousel from "./Carousel";
 import { clients } from "./Data";
 
 export default function ClientTalking() {
   return (
     <div className=" py-14 font-Montserrat">
-      <div className=" capitalize text-center px-6">
+      <div className=" capitalize text-center px-6 mb-6">
         <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
         </h4>
@@ -13,23 +13,23 @@ export default function ClientTalking() {
           Our clients do the talking
         </h2>
       </div>
-      <div className=" mx-4 sm:mx-16">
+      <div className=" mx-4 sm:mx-16 md:mx-10 ">
         <Carousel autoSlide={false} autoSlideInterval={5000}>
           {clients.map((client) => (
             <div
               key={client.name}
-              className=" bg-secondary px-8 py-5 mt-10 rounded-2xl sm:px-12"
+              className=" bg-secondary mt-10 px-8 pt-6 pb-10 rounded-2xl sm:px-12 md:snap-center"
             >
               <div>
-                <FaComment className=" text-4xl text-primary ml-[90%]" />
-                <p className="text-justify text-gray-600 font-normal my-4">
+                <RiDoubleQuotesL className=" text-5xl text-primary " />
+                <p className="text-justify text-gray-600 font-normal mt-2 mb-4 md:text-start">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                   veritatis explicabo illo.
                 </p>
               </div>
               <div className="flex items-center gap-4 sm:gap-6">
                 <img
-                  className=" size-16 object-cover object-top rounded-full"
+                  className=" size-16 object-cover object-top rounded-full md:shrink-0"
                   src={client.image}
                   alt=""
                 />
