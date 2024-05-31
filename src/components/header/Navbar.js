@@ -10,8 +10,8 @@ export default function Navbar() {
   const [isShow, setIsShow] = useState(false);
 
   return (
-    <div className=" relative">
-      <nav className="z-50 fixed top-0 left-0 right-0 px-4 py-4 bg-white font-Montserrat w-full flex flex-wrap items-center justify-between shadow overflow-x-hidden sm:px-16 md:px-8 md:py-5">
+    <div className=" relative  font-Montserrat">
+      <nav className="z-50 fixed top-0 left-0 right-0 p-4 bg-white w-full flex flex-wrap items-center justify-between shadow overflow-x-hidden sm:px-16 md:px-10 md:py-5 lg:px-12 lg:flex-nowrap">
         <div>
           <Link to="#">
             <h1 className=" text-3xl text-black font-extrabold font-sans sm:text-4xl">
