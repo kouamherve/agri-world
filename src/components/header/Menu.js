@@ -4,10 +4,10 @@ export default function Menu({ isShow }) {
   return (
     <div
       className={`${
-        isShow ? "block" : "hidden"
-      } w-full p-4 font-bold text-black md:h-[350px]`}
+        isShow ? "block" : "hidden lg:flex items-center justify-center"
+      } w-full mt-5 p-4 font-bold text-black md:p-8 lg:p-0 lg:mt-0 lg:ml-14`}
     >
-      <ul className="flex flex-col items-center gap-4 text-lg md:gap-8">
+      <ul className="flex flex-col items-center gap-6 text-lg lg:flex-row lg:gap-7 lg:text-base">
         <Link>
           <li className=" text-primary">Home</li>
         </Link>
