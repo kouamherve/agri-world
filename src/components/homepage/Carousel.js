@@ -27,7 +27,7 @@ export default function Carousel({
   return (
     <div className="relative overflow-x-hidden md:overflow-x-auto">
       <div
-        className="flex transition ease-out duration-700 delay-150 gap-0 md:gap-20 md:snap-x md:snap-mandatory"
+        className="flex transition ease-out duration-700 delay-150 gap-0 sm:snap-x sm:snap-mandatory sm:gap-10 md:gap-20 lg:gap-6"
         style={{
           transform: `translateX(-${current * 100}%)`,
         }}
@@ -35,7 +35,7 @@ export default function Carousel({
         {clients.map((client, index) => (
           <div
             key={index}
-            className="min-w-full flex justify-center items-center md:min-w-80"
+            className="min-w-full flex justify-center items-center sm:min-w-72 md:min-w-80 lg:min-w-72"
           >
             {client}
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Dot({ clients, current, setCurrent }) {
   return (
-    <div className="absolute -bottom-0 left-0 right-0 md:hidden">
+    <div className="absolute -bottom-0 left-0 right-0 sm:hidden">
       <div className=" flex items-center justify-center gap-2">
         {clients.map((_, i) => (
           <div
