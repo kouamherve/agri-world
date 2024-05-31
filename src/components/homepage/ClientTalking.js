@@ -4,32 +4,32 @@ import { clients } from "./Data";
 
 export default function ClientTalking() {
   return (
-    <div className=" py-14 font-Montserrat md:py-20 lg:py-24">
+    <div className=" py-14 font-Montserrat sm:py-16 md:py-20 lg:py-24">
       <div className=" capitalize text-center px-6 mb-6">
         <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
         </h4>
-        <h2 className=" text-[26px] leading-8 mt-1 font-bold sm:text-4xl lg:mt-2">
+        <h2 className=" text-[26px] leading-8 mt-1 font-bold sm:text-3xl md:text-4xl lg:mt-2">
           Our clients do the talking
         </h2>
       </div>
-      <div className=" mx-4 sm:mx-16 md:mx-20 lg:mx-14">
+      <div className=" mx-4 sm:mx-14 md:mx-20 lg:mx-14">
         <Carousel autoSlide={false} autoSlideInterval={5000}>
           {clients.map((client) => (
             <div
               key={client.name}
-              className=" bg-secondary mt-6 px-8 pt-6 pb-10 rounded-2xl sm:py-2 sm:snap-center md:px-3 lg:px-4"
+              className=" bg-secondary mt-6 px-8 pt-6 pb-10 rounded-2xl sm:py-2 sm:px-4 sm:snap-center md:px-3 lg:px-4"
             >
               <div>
                 <RiDoubleQuotesL className=" text-5xl text-primary " />
-                <p className="text-justify text-gray-600 font-normal mt-2 mb-4 sm:text-start lg:text-sm">
+                <p className=" text-[15px] text-justify text-gray-600 font-normal mt-2 mb-4 sm:text-start lg:text-sm">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                   veritatis explicabo illo.
                 </p>
               </div>
               <div className="flex items-center gap-4 md:gap-4">
                 <img
-                  className=" size-16 object-cover object-top rounded-full md:shrink-0"
+                  className=" size-14 object-cover object-top rounded-full sm:size-16 md:shrink-0"
                   src={client.image}
                   alt=""
                 />

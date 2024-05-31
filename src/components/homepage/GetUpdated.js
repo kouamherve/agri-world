@@ -3,14 +3,14 @@ import Button from "../../reusable-ui/Button";
 
 export default function GetUpdated() {
   const image =
-    "https://cdn.pixabay.com/photo/2020/06/23/06/45/dji-5331570_1280.jpg";
+    "https://cdn.pixabay.com/photo/2014/10/31/20/24/sun-rays-511029_1280.jpg";
   return (
     <div
-      className=" py-20 text-white font-Montserrat capitalize bg-cover bg-center bg-black/65 bg-blend-darken sm:py-24"
+      className=" py-20 text-white font-Montserrat capitalize bg-cover bg-top bg-black/65 bg-blend-darken sm:py-24"
       style={{ backgroundImage: `url(${image})` }}
     >
-      <div className=" mx-4 sm:mx-16 md:mx-20 lg:mx-14 lg:ml-96">
-        <h1 className=" text-3xl font-bold sm:text-4xl md:leading-tight">
+      <div className=" mx-4 sm:mx-14 md:mx-20 lg:mx-14 lg:ml-96">
+        <h1 className=" text-3xl font-bold sm:text-[32px] md:text-4xl md:leading-tight">
           Get update from <br className=" hidden md:block" />
           anywhere
         </h1>
@@ -26,7 +26,7 @@ export default function GetUpdated() {
             type="text"
             placeholder="Enter your Email..."
           />
-          <Button className="text-white hover:text-primary text-base bg-primary border border-primary py-3 w-full sm:text-lg md:text-[16px] md:w-1/4 lg:text-sm lg:py-4">
+          <Button className="text-white hover:text-primary text-base bg-primary border border-primary py-3 w-full sm:text-base md:text-[16px] md:w-1/4 lg:text-sm lg:py-4">
             Subscribe
           </Button>
         </form>

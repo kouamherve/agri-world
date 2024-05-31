@@ -12,9 +12,9 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className=" bg-black text-footer font-Montserrat pt-14 overflow-x-hidden lg:pt-24">
-      <div className="mx-4 sm:mx-16 lg:mx-14 ">
-        <div className=" lg:hidden">
+    <div className=" bg-black text-footer font-Montserrat pt-14 overflow-x-hidden sm:pt-16 md:pt-20 lg:pt-24">
+      <div className="mx-4 sm:mx-14 lg:mx-14 ">
+        <div className=" sm:hidden md:block lg:hidden">
           <div>
             <h1 className=" text-xl text-white font-extrabold">About us</h1>
             <p className="my-4 text-[15px] sm:text-base">
@@ -31,13 +31,13 @@ export default function Footer() {
             <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
           </div>
         </div>
-        <div className=" md:grid grid-cols-3 md:my-10 lg:my-0 lg:grid-cols-4 lg:mb-24">
-          <div className="hidden lg:block">
+        <div className=" sm:grid sm:grid-cols-2 sm:gap-y-8 sm:mb-16 md:grid-cols-3 md:my-10 lg:my-0 lg:grid-cols-4 lg:mb-24">
+          <div className="hidden sm:block md:hidden lg:block">
             <div>
               <h1 className=" text-xl text-white font-extrabold lg:text-lg">
                 About us
               </h1>
-              <p className="my-4 text-[15px] sm:text-base lg:text-[15px] lg:pr-10">
+              <p className="my-4 text-[15px] sm:text-base sm:pr-16 md:pr-0 lg:text-[15px] lg:pr-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
                 laboriosam, inventore cumque aliquam natus voluptatibus
                 praesentium minima ducimus rem eius quod temporibus dicta
@@ -51,7 +51,7 @@ export default function Footer() {
               <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer lg:text-[28px] " />
             </div>
           </div>
-          <div className="mt-8 md:mt-4 lg:mt-0">
+          <div className="mt-8 sm:mt-0 md:mt-4 lg:mt-0">
             <h1 className=" text-xl text-white font-extrabold mb-4 lg:text-lg">
               Useful links
             </h1>
@@ -70,7 +70,7 @@ export default function Footer() {
               </Link>
             </ul>
           </div>
-          <div className="mt-8 md:mt-4 lg:mt-0">
+          <div className="mt-8 sm:mt-0 md:mt-4 lg:mt-0">
             <h1 className=" text-xl text-white font-extrabold mb-4 lg:text-lg">
               Services
             </h1>
@@ -92,7 +92,7 @@ export default function Footer() {
               </Link>
             </ul>
           </div>
-          <div className="mt-8 md:mt-4 mb-14 lg:mt-0 lg:mb-0">
+          <div className="mt-8 sm:mt-0 md:mt-4 mb-14 lg:mt-0 lg:mb-0">
             <h1 className=" text-xl text-white font-extrabold mb-4 lg:text-lg">
               Contact Us
             </h1>
@@ -119,7 +119,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className=" bg-footerBg p-8 w-full text-center text-footer font-Montserrat lg:p-10">
+      <div className=" bg-footerBg p-8 w-full text-center text-footer font-Montserrat sm:p-9 lg:p-10">
         <div className=" flex items-center justify-center gap-1">
           <div className="sm:flex gap-1 text-sm sm:text-base">
             <span className="flex items-center gap-1">
