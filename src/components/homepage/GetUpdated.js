@@ -6,15 +6,15 @@ export default function GetUpdated() {
     "https://cdn.pixabay.com/photo/2020/06/23/06/45/dji-5331570_1280.jpg";
   return (
     <div
-      className=" py-20 text-white font-Montserrat capitalize bg-cover bg-center bg-black/65 bg-blend-darken sm:py-24 md:py-[110px] lg:py-24"
+      className=" py-20 text-white font-Montserrat capitalize bg-cover bg-center bg-black/65 bg-blend-darken sm:py-24"
       style={{ backgroundImage: `url(${image})` }}
     >
-      <div className=" mx-4 sm:mx-16 md:mx-10 lg:mx-14 lg:ml-96">
+      <div className=" mx-4 sm:mx-16 md:mx-20 lg:mx-14 lg:ml-96">
         <h1 className=" text-3xl font-bold sm:text-4xl md:leading-tight">
           Get update from <br className=" hidden md:block" />
           anywhere
         </h1>
-        <p className=" text-lg mt-1 sm:tracking-wider md:mt-4">
+        <p className=" text-lg mt-1 sm:tracking-wider md:mt-2">
           Don't miss out on the good news!
         </p>
         <form

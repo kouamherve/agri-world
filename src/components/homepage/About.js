@@ -3,8 +3,8 @@ import Button from "../../reusable-ui/Button";
 
 export default function About() {
   return (
-    <div className=" bg-secondary py-14 lg:flex items-center lg:px-14 lg:py-24 gap-6">
-      <div className=" mx-4 pb-8 font-Montserrat capitalize sm:mx-16 md:mx-8 lg:mx-0 lg:w-1/2 lg:pb-0">
+    <div className=" bg-secondary py-14 md:py-20 lg:flex items-center lg:px-14 lg:py-24 gap-6">
+      <div className=" mx-4 pb-8 font-Montserrat capitalize sm:mx-16 md:mx-20 lg:mx-0 lg:w-1/2 lg:pb-0">
         <div>
           <h4 className=" text-sm mb-1 text-primary font-medium sm:text-base lg:text-sm">
             About us
@@ -25,7 +25,7 @@ export default function About() {
           Read more
         </Button>
       </div>
-      <div className=" relative mx-4 h-64 w-auto sm:mx-16 sm:h-96 md:mx-8 md:h-[510px] lg:w-1/2 lg:h-96 lg:mx-0">
+      <div className=" relative mx-4 h-64 w-auto sm:mx-16 sm:h-96 md:mx-20 md:h-96 lg:w-1/2 lg:mx-0">
         <img
           className=" absolute inset-0 object-cover object-center w-full h-full rounded-lg"
           src="https://cdn.pixabay.com/photo/2021/05/03/13/32/greenhouse-6226263_1280.jpg"

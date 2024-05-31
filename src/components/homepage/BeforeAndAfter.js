@@ -3,7 +3,7 @@ import React from "react";
 export default function BeforeAndAfter() {
   return (
     <div className=" bg-secondary py-20 space-y-6 sm:space-y-8 md:flex md:space-y-0 lg:py-24 lg:px-14">
-      <div className=" relative mx-4 h-64 w-auto sm:mx-16 sm:h-80 md:mx-8 md:mr-2 lg:mx-0 lg:h-96">
+      <div className=" relative mx-4 h-64 sm:mx-16 sm:h-80 md:h-72 md:mx-20 md:mr-2 lg:mx-0 lg:h-96">
         <img
           className=" object-cover object-center w-full h-full rounded-t-lg md:rounded-l-lg md:rounded-tr-none"
           src="https://cdn.pixabay.com/photo/2017/10/08/19/47/arable-2831301_1280.jpg"
@@ -13,7 +13,7 @@ export default function BeforeAndAfter() {
           Before
         </span>
       </div>
-      <div className=" relative mx-4 h-64 w-auto sm:mx-16 sm:h-80 md:mx-8 md:ml-2 lg:mx-0 lg:h-96 ">
+      <div className=" relative mx-4 h-64 sm:mx-16 sm:h-80 md:h-72 md:mx-20 md:ml-2 lg:mx-0 lg:h-96 ">
         <img
           className=" object-cover object-center w-full h-full rounded-b-lg md:rounded-r-lg md:rounded-bl-none"
           src="https://cdn.pixabay.com/photo/2015/08/08/22/39/field-880966_1280.jpg"

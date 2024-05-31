@@ -51,7 +51,7 @@ export default function Footer() {
               <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer lg:text-[28px] " />
             </div>
           </div>
-          <div className="mt-8 lg:mt-0">
+          <div className="mt-8 md:mt-4 lg:mt-0">
             <h1 className=" text-xl text-white font-extrabold mb-4 lg:text-lg">
               Useful links
             </h1>
@@ -70,7 +70,7 @@ export default function Footer() {
               </Link>
             </ul>
           </div>
-          <div className="mt-8 lg:mt-0">
+          <div className="mt-8 md:mt-4 lg:mt-0">
             <h1 className=" text-xl text-white font-extrabold mb-4 lg:text-lg">
               Services
             </h1>
@@ -92,7 +92,7 @@ export default function Footer() {
               </Link>
             </ul>
           </div>
-          <div className="mt-8 mb-14 lg:mt-0 lg:mb-0">
+          <div className="mt-8 md:mt-4 mb-14 lg:mt-0 lg:mb-0">
             <h1 className=" text-xl text-white font-extrabold mb-4 lg:text-lg">
               Contact Us
             </h1>

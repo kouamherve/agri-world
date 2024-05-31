@@ -4,7 +4,7 @@ import { clients } from "./Data";
 
 export default function ClientTalking() {
   return (
-    <div className=" py-14 font-Montserrat lg:py-24">
+    <div className=" py-14 font-Montserrat md:py-20 lg:py-24">
       <div className=" capitalize text-center px-6 mb-6">
         <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
@@ -13,12 +13,12 @@ export default function ClientTalking() {
           Our clients do the talking
         </h2>
       </div>
-      <div className=" mx-4 sm:mx-16 md:mx-10 lg:mx-14">
+      <div className=" mx-4 sm:mx-16 md:mx-20 lg:mx-14">
         <Carousel autoSlide={false} autoSlideInterval={5000}>
           {clients.map((client) => (
             <div
               key={client.name}
-              className=" bg-secondary mt-6 px-8 pt-6 pb-10 rounded-2xl sm:px-8 sm:py-2 sm:snap-center lg:px-4"
+              className=" bg-secondary mt-6 px-8 pt-6 pb-10 rounded-2xl sm:py-2 sm:snap-center md:px-3 lg:px-4"
             >
               <div>
                 <RiDoubleQuotesL className=" text-5xl text-primary " />
@@ -27,13 +27,13 @@ export default function ClientTalking() {
                   veritatis explicabo illo.
                 </p>
               </div>
-              <div className="flex items-center gap-4 md:gap-6">
+              <div className="flex items-center gap-4 md:gap-4">
                 <img
                   className=" size-16 object-cover object-top rounded-full md:shrink-0"
                   src={client.image}
                   alt=""
                 />
-                <h2 className=" font-bold text-base md:text-lg">
+                <h2 className=" font-bold text-base lg:text-lg">
                   {client.name}
                 </h2>
               </div>
