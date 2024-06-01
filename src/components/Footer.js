@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className=" bg-black ">
-      <div className="text-footer font-Montserrat pt-14 overflow-x-hidden px-4 sm:px-14 lg:px-14 sm:pt-16 md:pt-20 lg:pt-24 xl:px-36">
+      <div className="text-footer font-Montserrat pt-14 overflow-x-hidden px-4 sm:px-14 lg:px-14 sm:pt-16 md:pt-20 lg:pt-24 xl:px-36 xl:py-28">
         <div>
           <div className=" sm:hidden md:block lg:hidden">
             <div>

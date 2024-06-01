@@ -3,7 +3,7 @@ import Button from "../../reusable-ui/Button";
 
 export default function About() {
   return (
-    <div className=" bg-secondary py-14 items-center gap-6 sm:py-16 md:py-20 lg:flex lg:px-14 lg:py-24 xl:px-36 ">
+    <div className=" bg-secondary py-14 items-center gap-6 sm:py-16 md:py-20 lg:flex lg:px-14 lg:py-24 xl:px-36 xl:py-28">
       <div className=" mx-4 pb-8 font-Montserrat capitalize sm:mx-14 md:mx-20 lg:mx-0 lg:w-1/2 lg:pb-0">
         <div>
           <h4 className=" text-sm mb-1 text-primary font-medium sm:text-base lg:text-sm">
