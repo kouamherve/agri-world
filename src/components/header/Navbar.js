@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className=" relative  font-Montserrat">
-      <nav className="z-50 fixed top-0 left-0 right-0 p-2.5 bg-white w-full flex flex-wrap items-center justify-between shadow overflow-x-hidden sm:px-14 md:px-20 md:py-3.5 lg:px-14 lg:flex-nowrap">
+      <nav className="z-50 fixed top-0 left-0 right-0 p-2.5 bg-white w-full flex flex-wrap items-center justify-between shadow overflow-x-hidden sm:px-14 md:px-20 md:py-3.5 lg:px-14 lg:flex-nowrap lg:py-4 xl:py-5 xl:px-36">
         <div>
           <Link to="#">
             <h1 className=" text-3xl text-black font-extrabold font-sans md:text-4xl lg:text-nowrap">
@@ -31,7 +31,7 @@ export default function Navbar() {
           <Button className="px-10 py-3.5 text-nowrap bg-primary text-white">
             Free Quote
           </Button>
-          <MdDarkMode className=" text-2xl md:text-[26px] text-gray-600" />
+          <MdDarkMode className=" text-2xl md:text-[26px] text-gray-600 xl:ml-2" />
         </div>
       </nav>
     </div>
