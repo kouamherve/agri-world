@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BeforeAndAfter() {
   return (
-    <div className=" bg-secondary py-20 space-y-6 sm:space-y-4 md:flex md:space-y-0 lg:py-24 lg:px-14 xl:px-36 xl:py-28 2xl:px-[266px]">
+    <div className=" bg-secondary py-20 space-y-6 sm:space-y-4 md:flex md:space-y-0 lg:py-24 lg:px-14 xl:px-36 xl:py-28 2xl:px-[266px] 3xl:px-[710px]">
       <div className=" relative mx-4 h-64 sm:mx-16 sm:h-[270px] md:h-72 md:mr-2 lg:mx-0 lg:h-96 xl:h-[460px]">
         <img
           className=" object-cover contrast-50 object-center w-full h-full rounded-t-lg md:rounded-l-lg md:rounded-tr-none"

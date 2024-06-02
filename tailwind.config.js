@@ -13,6 +13,9 @@ module.exports = {
         footerLinks: "#6E747B",
         footerBg: "#111111",
       },
+      screens: {
+        "3xl": "2560px",
+      },
     },
   },
   plugins: [],

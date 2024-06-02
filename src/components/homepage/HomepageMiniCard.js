@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomepageMiniCard({ image, title }) {
   return (
-    <div className="h-14 w-20 bg-white ml-5 rounded-lg font-Montserrat flex flex-col items-center justify-center sm:w-[136px] sm:h-40 md:w-36 lg:w-44 lg:h-[196px] xl:w-72 2xl:w-80 2xl:h-52 ">
+    <div className="h-14 w-20 bg-white ml-2 rounded-lg font-Montserrat flex flex-col items-center justify-center sm:ml-4 sm:w-[136px] sm:h-40 md:ml-6 md:w-36 lg:w-44 lg:h-[196px] xl:w-72 2xl:w-80 2xl:h-52 3xl:h-[310px] 3xl:w-[520px] ">
       <div className="w-full p-2 h-full sm:p-3 sm:h-2/5 md:h-1/2 xl:h-3/4 xl:p-4 2xl:h-4/5">
         <img
           className=" object-cover object-bottom w-full h-full rounded-lg sm:object-center "
