@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className=" bg-black ">
-      <div className="text-footer font-Montserrat pt-14 overflow-x-hidden px-4 sm:px-14 lg:px-14 sm:pt-16 md:pt-20 lg:pt-24 xl:px-36 xl:py-28 2xl:px-[710px]">
+      <div className="text-footer font-Montserrat pt-14 overflow-x-hidden px-4 sm:px-14 lg:px-14 sm:pt-16 md:pt-20 lg:pt-24 xl:px-36 xl:py-28 2xl:px-[266px]">
         <div>
           <div className=" sm:hidden md:block lg:hidden">
             <div>
@@ -32,7 +32,7 @@ export default function Footer() {
               <FaLinkedinIn className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer " />
             </div>
           </div>
-          <div className=" sm:grid sm:grid-cols-2 sm:gap-y-8 sm:mb-16 md:grid-cols-3 md:my-10 lg:my-0 lg:grid-cols-4 lg:mb-24 xl:gap-x-0">
+          <div className=" sm:grid sm:grid-cols-2 sm:gap-y-8 sm:mb-16 md:grid-cols-3 md:my-10 lg:my-0 lg:grid-cols-4 lg:mb-24 xl:gap-x-0 xl:mb-0">
             <div className="hidden sm:block md:hidden lg:block">
               <div className="">
                 <h1 className=" text-xl text-white font-extrabold lg:text-lg xl:text-2xl">

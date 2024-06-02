@@ -6,7 +6,7 @@ export default function GetUpdated() {
     "https://cdn.pixabay.com/photo/2023/09/25/16/18/agriculture-8275498_1280.jpg";
   return (
     <div
-      className=" py-20 px-4 text-white font-Montserrat capitalize bg-cover bg-bottom bg-black/65 bg-blend-darken sm:py-24 sm:px-14 md:bg-center md:px-20 lg:px-14 xl:px-36 xl:py-28 2xl:px-[710px]"
+      className=" py-20 px-4 text-white font-Montserrat capitalize bg-cover bg-bottom bg-black/65 bg-blend-darken sm:py-24 sm:px-14 md:bg-center md:px-20 lg:px-14 xl:px-36 xl:py-28 2xl:px-[266px]"
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className="lg:ml-96 xl:w-1/2 xl:translate-x-1/3">

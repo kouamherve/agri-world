@@ -9,7 +9,7 @@ export default function HomepageCard({ slide }) {
         src={slide.imageUrl}
         alt={slide.title}
       />
-      <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat sm:mx-14 md:mx-20 lg:mx-14 lg:mt-4 xl:mx-36 xl:mt-0 xl:-top-32 2xl:mx-[710px]">
+      <div className="absolute inset-0 mx-4 flex flex-col justify-center items-start capitalize font-Montserrat sm:mx-14 md:mx-20 lg:mx-14 lg:mt-4 xl:mx-36 xl:mt-0 xl:-top-32 2xl:mx-[266px]">
         <h3 className="text-white text-sm mb-2 font-light sm:text-base md:text-lg md:mb-0 xl:text-lg">
           {slide.subTitle}
         </h3>
@@ -20,7 +20,7 @@ export default function HomepageCard({ slide }) {
           Read more
         </Button>
       </div>
-      <div className=" absolute my-4 mx-2 bottom-0 right-0 flex items-center justify-center sm:mb-8 sm:mx-6 xl:mb-20 2xl:mb-24 2xl:mx-10">
+      <div className=" absolute my-4 mx-2 bottom-0 right-0 flex items-center justify-center sm:mb-8 sm:mx-6 xl:mb-20 2xl:mx-10">
         <HomepageMiniCard
           title={slide.titleMini1}
           image={slide.imageUrlMini1}
