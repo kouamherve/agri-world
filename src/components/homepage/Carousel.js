@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import Dot from "./Dot";
+import Slider from "./Slider";
 
 export default function Carousel({
   children: clients,
@@ -24,47 +25,24 @@ export default function Carousel({
   }, []);
 
   return (
-    <div className=" overflow-hidden relative">
+    <div className="relative overflow-x-hidden sm:overflow-x-auto">
       <div
-        className="flex transition ease-out duration-700 delay-150"
-        style={{ transform: `translateX(-${current * 100}%)` }}
+        className="flex transition ease-out duration-700 delay-150 gap-0 sm:snap-x sm:snap-mandatory sm:gap-16 md:gap-6"
+        style={{
+          transform: `translateX(-${current * 100}%)`,
+        }}
       >
         {clients.map((client, index) => (
           <div
             key={index}
-            className="min-w-full flex justify-center items-center"
+            className="min-w-full flex justify-center items-center sm:min-w-64 md:min-w-[280px] xl:min-w-[340px] 2xl:min-w-[360px]"
           >
             {client}
           </div>
         ))}
       </div>
-      <div className=" absolute text-3xl inset-0 mx-2 hidden items-center justify-between">
-        <button
-          onClick={prevSlide}
-          className=" bg-white/80 text-gray-800 shadow rounded-full p-2 hover:bg-white"
-        >
-          <FaChevronLeft />
-        </button>
-        <button
-          onClick={nextSlide}
-          className=" bg-white/80 text-gray-800 shadow rounded-full p-2 hover:bg-white"
-        >
-          <FaChevronRight />
-        </button>
-      </div>
-      <div className="absolute bottom-2 left-0 right-0 ">
-        <div className=" flex items-center justify-center gap-2">
-          {clients.map((_, i) => (
-            <div
-              onClick={() => setCurrent(i)}
-              key={i}
-              className={` transition-all size-3 bg-violet-950 rounded-full cursor-pointer ${
-                current === i ? "p-2" : "bg-opacity-50"
-              }`}
-            />
-          ))}
-        </div>
-      </div>
+      <Slider prevSlide={prevSlide} nextSlide={nextSlide} />
+      <Dot clients={clients} current={current} setCurrent={setCurrent} />
     </div>
   );
 }

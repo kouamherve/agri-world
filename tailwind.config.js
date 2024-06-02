@@ -14,9 +14,7 @@ module.exports = {
         footerBg: "#111111",
       },
       screens: {
-        xs: "320px",
-        xm: "425px",
-        ss: "540px",
+        "3xl": "2560px",
       },
     },
   },

@@ -12,7 +12,7 @@ import ClientTalking from "./ClientTalking";
 
 export default function Homepage() {
   return (
-    <div className=" bg-white max-w-md mx-auto pt-14 overflow-hidden">
+    <div className=" bg-white max-w-3xl mx-auto pt-14 overflow-hidden sm:max-w-3xl lg:max-w-full">
       <Caroussel autoSlide={true} autoSlideInterval={5000}>
         {slides.map((slide) => (
           <HomepageCard key={slide.id} slide={slide} />
