@@ -35,7 +35,7 @@ export default function Carousel({
         {clients.map((client, index) => (
           <div
             key={index}
-            className="min-w-full flex justify-center items-center sm:min-w-64 md:min-w-[280px] xl:min-w-[370px]"
+            className="min-w-full flex justify-center items-center sm:min-w-64 md:min-w-[280px] xl:min-w-[340px]"
           >
             {client}
           </div>

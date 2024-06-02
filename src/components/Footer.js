@@ -45,7 +45,7 @@ export default function Footer() {
                   consectetur.
                 </p>
               </div>
-              <div className="flex items-center gap-6 text-white lg:gap-4">
+              <div className="flex items-center gap-6 text-white lg:gap-4 xl:mt-10">
                 <FaFacebookF className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer lg:text-[28px] xl:text-4xl " />
                 <FaInstagram className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer lg:text-[28px] xl:text-4xl " />
                 <FaTwitter className=" bg-gray-900 p-2 rounded-full text-3xl cursor-pointer lg:text-[28px] xl:text-4xl " />
