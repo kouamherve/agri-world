@@ -4,7 +4,7 @@ import { clients } from "./Data";
 
 export default function ClientTalking() {
   return (
-    <div className=" py-14 px-4 font-Montserrat sm:px-14 sm:py-16 md:p-20 lg:px-14 lg:py-24 xl:px-36 xl:py-28">
+    <div className=" py-14 px-4 font-Montserrat sm:px-14 sm:py-16 md:p-20 lg:px-14 lg:py-24 xl:px-36 xl:py-28 2xl:px-[710px]">
       <div className=" capitalize text-center px-6 mb-6">
         <h4 className=" text-sm text-primary font-medium sm:text-base">
           Here's what they have to say
