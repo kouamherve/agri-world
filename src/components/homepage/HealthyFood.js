@@ -3,7 +3,7 @@ import HealthyFoodCard from "../../reusable-ui/HealthyFoodCard";
 
 export default function HealthyFood() {
   return (
-    <div className="px-4 py-14 sm:py-16 sm:px-14 md:px-20 md:py-20 lg:px-14 lg:py-24 xl:px-36 xl:py-28">
+    <div className="px-4 py-14 sm:py-16 sm:px-14 md:px-20 md:py-20 lg:px-14 lg:py-24 xl:px-36 xl:py-28 2xl:px-[710px]">
       <div className=" font-Montserrat capitalize sm:mb-8 0 md:mb-10 lg:mb-12">
         <h3 className=" text-sm text-primary font-medium sm:text-base">
           Healthy food
