@@ -2,7 +2,7 @@ import Check from "../../reusable-ui/Check";
 
 export default function WhatWeDo() {
   return (
-    <div className="px-4 py-14 items-center gap-6 sm:p-16 md:p-20 lg:py-24 lg:px-14 lg:flex xl:px-36 xl:py-28">
+    <div className="px-4 py-14 items-center gap-6 sm:p-16 md:p-20 lg:py-24 lg:px-14 lg:flex xl:px-36 xl:py-28 2xl:px-[710px]">
       <div className=" relative h-64 sm:h-80 lg:w-1/2 lg:h-96 xl:h-[460px] xl:shrink-0">
         <img
           className=" absolute inset-0 object-cover object-center w-full h-full rounded-lg "
